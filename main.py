@@ -22,7 +22,7 @@ REL_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 MC_NS = "http://schemas.openxmlformats.org/markup-compatibility/2006"
 X14AC_NS = "http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
-SKIP_HEADER_LABELS = {"Предоп.1п"}
+SKIP_HEADER_LABELS = set()
 STAR_PATTERN = re.compile(r"^([+-]?\d+(?:[.,]\d+)?)(\*+)$")
 NUMBER_PATTERN = re.compile(r"^[+-]?\d+(?:[.,]\d+)?$")
 
